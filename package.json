@@ -1,0 +1,19 @@
+{
+  "name": "devinyoungweb.com",
+  "version": "0.0.1",
+  "private": "true",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "express": ">= 3.x.x",
+    "poet": "1.0.0rc4",
+    "jade": "1.3.x",
+    "marked": "x.x.x",
+    "newrelic": "x.x.x"
+  }
+}

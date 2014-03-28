@@ -1,0 +1,149 @@
+/* custom template */
+html, body {
+   height: 100%;
+}
+
+.wrapper, .row {
+   height: 100%;
+   margin-left:0;
+   margin-right:0;
+}
+
+.wrapper:before, .wrapper:after,
+.column:before, .column:after {
+    content: "";
+    display: table;
+}
+
+.wrapper:after,
+.column:after {
+    clear: both;
+}
+
+.column {
+    height: 100%;
+    overflow: auto;
+    *zoom:1;
+}
+
+.column .padding {
+    padding: 20px;
+}
+
+.box {
+  	bottom: 0; /* increase for footer use */
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image:url('/img/dallas.png');
+    background-size: contain;
+    background-attachment:fixed;
+}
+
+.divider {
+	margin-top:32px;
+}
+
+#main {
+    background-color:#fcfcfc;
+}
+#main .img-circle {
+  margin-top:18px;
+  height:70px;
+  width:70px;
+}
+#sidebar {
+  text-align: center;
+}
+#sidebar, #sidebar a {
+  color:#ffffff;
+  background-color:transparent;
+	text-shadow:1px 0 1px #888888;
+}
+#sidebar a.logo {
+  display:block;
+  padding:3px;
+  height:200px;
+  width:200px;
+  margin:0 auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  background-image: url('http://www.gravatar.com/avatar/5a8690209b6c80b2a5d8d69e6b130baf.jpg?s=200');
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+#sidebar-footer {
+  text-align: center;
+  position:absolute;bottom:5px;
+}
+#footer {
+  margin-bottom:20px;
+}
+span.date {
+  font-weight: bold;
+}
+.author {
+  margin-bottom: 20px;
+}
+.author span {
+  font-style: italic;
+  font-size: 15px;
+}
+
+@media (max-width: 992px) {
+  #sidebar a.logo {
+    background-image: url('http://www.gravatar.com/avatar/5a8690209b6c80b2a5d8d69e6b130baf.jpg?s=175');
+    height:175px;
+    width:175px;
+  }
+}
+
+/* center and adjust the sidebar contents on smaller devices */
+@media (max-width: 768px) {
+  .box {
+    background-size:cover;
+  }
+  #sidebar,#sidebar a.logo {
+    text-align:center;
+    margin:0 auto;
+  }
+  #sidebar a.logo {
+    margin-top: 10px;
+    margin-bottom:10px;
+  }
+}
+
+
+
+
+/* bootstrap overrides */
+/*
+.col-sm-9.full {
+    width: 100%;
+}
+*/
+body {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+pre {
+  background-color: #23241f;
+}
+
+.page-header h1 {
+  font-size: 40px;
+}
+
+p {
+  margin: 0 0 25px;
+}
+
+hr {
+  border-top: 1px solid #2c3e50;
+}
