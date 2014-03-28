@@ -3,7 +3,7 @@
   "description": "PHP used to be the future of websites, but is it really as useful as other dynamic languages nowadays?",
   "date": "1-21-2013",
   "category": "PHP",
-  "tags": ["codeigniter", "composer", "django", "jquery", "laravel", "node.js", "npm", "php5", "python"],
+  "tags": ["php", "node.js", "python"],
   "slug": "is-php-outdated"
 }}}
 

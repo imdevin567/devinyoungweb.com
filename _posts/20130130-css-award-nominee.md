@@ -3,7 +3,7 @@
   "description": "The Fort Worth Food + Wine Festival, launched in early January, has been nominated for a CSS Award!",
   "date": "1-30-2013",
   "category": "Shameless Advertising",
-  "tags": ["anchor marketing & design", "css awards"],
+  "tags": ["anchor marketing & design", "css"],
   "slug": "css-award-nominee"
 }}}
 

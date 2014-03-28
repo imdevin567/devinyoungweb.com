@@ -38,7 +38,7 @@ html, body {
     top: 0;
     background-image:url('/img/dallas.png');
     background-size: contain;
-    background-attachment:fixed;
+    /*background-attachment:fixed;*/
 }
 
 .divider {
@@ -90,6 +90,11 @@ span.date {
 .author span {
   font-style: italic;
   font-size: 15px;
+}
+.home-img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 992px) {

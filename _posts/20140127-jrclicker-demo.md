@@ -3,7 +3,7 @@
   "description": "An app to count speed jumps and display the score on Glass that a jumper could wear. This would allow them to see their score in real-time while they jump.",
   "date": "1-27-2014",
   "category": "Shameless Advertising",
-  "tags": ["app", "google glass", "ios", "phone", "jump rope"],
+  "tags": ["google glass", "ios", "jump rope"],
   "slug": "jrclicker-demo"
 }}}
 

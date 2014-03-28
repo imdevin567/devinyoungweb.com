@@ -3,7 +3,7 @@
   "description": "The Chrome Censored extension for Google Chrome censors inappropriate words/terms on the interweb by filling them in with flowery replacements.",
   "date": "3-28-2013",
   "category": "Shameless Advertising",
-  "tags": ["censor", "chrome", "extension", "filter", "javascript"],
+  "tags": ["chrome", "extension", "javascript"],
   "slug": "chrome-censored"
 }}}
 
