@@ -2,7 +2,7 @@ extends layout
 
 block content
   .author
-    span By Devin Young in #{post.category}
+    span By Devin Young in #[a(href=categoryURL(post.category)) #{post.category}]
   != post.content
 
   div#disqus_thread

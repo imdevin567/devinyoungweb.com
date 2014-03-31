@@ -26,4 +26,16 @@ module.exports = function (app) {
     });
   });
 
+  app.get('/tags', function (req, res) {
+    res.render('tags', {
+      title: 'Devin Young Blog Tags'
+    });
+  });
+
+  app.get('/categories', function (req, res) {
+    res.render('categories', {
+      title: 'Devin Young Blog Categories'
+    });
+  });
+
 };

@@ -13,7 +13,9 @@ var poet = Poet(app, {
   posts: __dirname + '/_posts',
   metaFormat: 'json',
   routes: {
-    '/blog/:post': 'post'
+    '/blog/:post': 'post',
+    '/tags/:tag': 'tag',
+    '/categories/:category': 'category'
   }
 });
 
@@ -30,5 +32,13 @@ app.use(handle404);
 app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
 
 require('./routes')(app);
+
+app.get('/feed', function (req, res) {
+  res.setHeader('Content-Type', 'application/rss+xml');
+  res.render('rss', {
+    posts: poet.helpers.getPosts(0, 5),
+    base_url: req.protocol + '://' + req.get('host')
+  })
+});
 
 app.listen(port);

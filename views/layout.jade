@@ -2,13 +2,13 @@ doctype html
 html
   head
     - if (typeof post !== "undefined" && post.title !== "undefined")
-      title= post.title + " * Devin Young"
+      title= post.title + " - Devin Young"
       meta(name='description', content=post.description)
     - else if (typeof tag !== "undefined")
-      title= tag + " * Devin Young"
+      title= tag + " - Devin Young"
       meta(name='description', content='Devin Young, posts tagged with #{tag}')
     - else if (typeof category !== "undefined")
-      title= category + " * Devin Young"
+      title= category + " - Devin Young"
       meta(name='description', content='Devin Young, posts of category #{category}')
     - else if (typeof title !== "undefined" )
       title= title
@@ -17,6 +17,8 @@ html
       title= 'Devin Young'
       meta(name='description', content='Devin Young, Software Engineer in DFW')
     meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="shortcut icon" href="/favicon.ico" type="image/x-icon")
+    link(rel="icon" href="/favicon.ico" type="image/x-icon")
     link(rel="stylesheet", href="/css/bootstrap.min.css")
     link(rel="stylesheet", href="http://yandex.st/highlightjs/8.0/styles/monokai_sublime.min.css")
     link(rel="stylesheet", href="/css/main.css")
@@ -34,7 +36,7 @@ html
       .box
         .row
           div#sidebar.column.col-sm-3
-            a.logo
+            a.logo(href="/")
             ul.nav
               li: a(href="/") Home
               li: a(href="/resume") Resume
@@ -45,6 +47,10 @@ html
             .page-header
               - if (typeof post !== "undefined" && post.title !== "undefined")
                 h1= post.title
+              - else if (typeof tag !== "undefined")
+                h1 Devin Young Blog Tags
+              - else if (typeof category !== "undefined")
+                h1 Devin Young Blog Categories
               - else
                 h1= title
             block content
