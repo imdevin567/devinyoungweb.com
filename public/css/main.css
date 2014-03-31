@@ -36,7 +36,8 @@ html, body {
     position: absolute;
     right: 0;
     top: 0;
-    background-image:url('/img/dallas.png');
+    background-color: #16284E;
+    background-image:url('https://dl.dropboxusercontent.com/u/281059208/dallas.jpg');
     background-size: contain;
     /*background-attachment:fixed;*/
 }

@@ -3,6 +3,8 @@ extends layout
 block content
   .author
     span By Devin Young in #[a(href=categoryURL(post.category)) #{post.category}]
+  img.home-img(src="https://dl.dropboxusercontent.com/u/281059208/#{post.slug}.jpg")
+  br
   != post.content
 
   div#disqus_thread
