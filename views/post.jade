@@ -2,7 +2,9 @@ extends layout
 
 block content
   .author
-    span By Devin Young in #[a(href=categoryURL(post.category)) #{post.category}]
+    span By #[a(href="https://google.com/+DevinYoungRocks" rel="author") Devin Young] in #[a(href=categoryURL(post.category)) #{post.category}]
+    br
+    span Posted On #{post.date.getMonth()+1}.#{post.date.getDate()}.#{post.date.getFullYear()}
   img.home-img(src="https://dl.dropboxusercontent.com/u/281059208/#{post.slug}.jpg")
   br
   != post.content
