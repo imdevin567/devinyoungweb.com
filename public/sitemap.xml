@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://devinyoungweb.com/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/resume</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/blog</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/blog/jrclicker-demo</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/tags/google%20glass</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/tags/ios</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/tags/jump%20rope</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/blog/chrome-censored</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/tags/chrome</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/tags/extension</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/tags/javascript</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/blog/google-plus-sign-in-with-ruby-on-rails</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/tags/api</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/tags/google+</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/tags/rails</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/tags/ruby</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/blog/css-award-nominee</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/tags/anchor%20marketing%20&amp;%20design</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/tags/css</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/blog/is-php-outdated</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/tags/php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/tags/node.js</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/tags/python</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/categories/Shameless%20Advertising</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/categories/Ruby%20on%20Rails</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://devinyoungweb.com/categories/PHP</loc>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
