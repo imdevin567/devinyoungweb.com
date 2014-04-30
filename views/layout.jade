@@ -33,7 +33,7 @@ html
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     .wrapper
-      .box
+      .box(itemscope, itemtype="http://schema.org/Blog")
         .row
           div#sidebar.column.col-sm-3
             a.logo(href="/")
@@ -43,16 +43,16 @@ html
               li: a(href="/blog") Blog
             ul#sidebar-footer.nav.hidden-xs
               li &copy; 2014 Devin Young
-          div#main.column.col-sm-9
+          div#main.column.col-sm-9(itemscope, itemtype=typeof post !== "undefined" && post.title !== "undefined" ? "http://schema.org/BlogPosting" : "")
             .page-header
               - if (typeof post !== "undefined" && post.title !== "undefined")
-                h1= post.title
+                h1(itemprop="name headline")= post.title
               - else if (typeof tag !== "undefined")
-                h1 Devin Young Blog Tags
+                h1(itemprop="name headline") Devin Young Blog Tags
               - else if (typeof category !== "undefined")
-                h1 Devin Young Blog Categories
+                h1(itemprop="name headline") Devin Young Blog Categories
               - else
-                h1= title
+                h1(itemprop="name headline")= title
             block content
   script(src="http://code.jquery.com/jquery-1.11.0.min.js")
   script(src="http://yandex.st/highlightjs/8.0/highlight.min.js")
