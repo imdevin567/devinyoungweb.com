@@ -19,13 +19,16 @@ var poet = Poet(app, {
   }
 });
 
+var seven_days = 86400000 * 7;
+
 poet
   .watch()
   .init();
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
-app.use(express.static(__dirname + '/public'));
+app.use(express.compress());
+app.use(express.static(__dirname + '/public', { maxAge: seven_days }));
 app.use(app.router);
 app.use(handle404);
 
