@@ -10,7 +10,10 @@ html
     - else if (typeof category !== "undefined")
       title= category + " - Devin Young"
       meta(name='description', content='Devin Young, posts of category #{category}')
-    - else if (typeof title !== "undefined" )
+    - else if (typeof page !== "undefined")
+        title= 'Devin Young Blog'
+        meta(name='description', content='Devin Young, Software Engineer in DFW')
+    - else if (typeof title !== "undefined")
       title= title
       meta(name='description', content='Devin Young, Software Engineer in DFW')
     - else
@@ -51,6 +54,8 @@ html
                 h1(itemprop="name headline") Devin Young Blog Tags
               - else if (typeof category !== "undefined")
                 h1(itemprop="name headline") Devin Young Blog Categories
+              - else if (typeof page !== "undefined")
+                h1(itemprop="name headline") Devin Young Blog
               - else
                 h1(itemprop="name headline")= title
             block content

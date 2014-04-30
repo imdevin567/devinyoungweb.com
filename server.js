@@ -15,7 +15,8 @@ var poet = Poet(app, {
   routes: {
     '/blog/:post': 'post',
     '/tags/:tag': 'tag',
-    '/categories/:category': 'category'
+    '/categories/:category': 'category',
+    '/blog/:page': 'page'
   }
 });
 
