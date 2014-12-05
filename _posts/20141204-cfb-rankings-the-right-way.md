@@ -7,6 +7,8 @@
   "slug": "cfb-rankings-the-right-way"
 }}}
 
+***After getting WAY more viewership than I expected, I decided to post the scripts on GitHub. You can find the project [here](https://github.com/imdevin567/cfb-rankings).***
+
 I might be a nerd, but I'm a big sports fan too. This is both nerdy and sporty, so bear with me here.
 
 As we near the end of the 2014 college football season, it's becoming incredibly apparent just how subjective the new [CFB playoff ranking system](http://espn.go.com/college-football/rankings/_/poll/21) really is. While the old BCS system wasn't perfect, it at least gave a *fairly* unbiased ranking of the best teams in the nation. People have agendas--computers do not. The people programming those computers might, but what if we only looked at the things that really mattered?
@@ -93,7 +95,7 @@ Obviously this brought to light some of the flaws with the current subjective ra
 
 At the same time, this system also highlights some of the successes of the CFB committee. Many have claimed [Baylor should be ranked ahead of TCU](http://www.nola.com/lsu/index.ssf/2014/12/should_tcu_be_ranked_above_bay.html) due to their same record with Baylor winning the head-to-head matchup. This shows that while TCU has dominated their fairly weak schedule, Baylor has not dominated their even *weaker* schedule.
 
-I hope this generates some buzz, otherwise why bother? Let me know your thoughts below if you feel so inclined.  As for the tech part of this, all scripts were written in Python and data was grabbed from [NCAA.com](http://ncaa.com) using HTML parsing. If there is enough interest, I might post the project on Github.
+I hope this generates some buzz, otherwise why bother? Let me know your thoughts below if you feel so inclined.  As for the tech part of this, all scripts were written in Python and data was grabbed from [NCAA.com](http://ncaa.com) using HTML parsing. If there is enough interest, I might post the project on GitHub.
 
 
 
