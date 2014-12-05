@@ -35,7 +35,7 @@ This win against the Ducks gets a rating of 1.045 for Arizona, which happened to
 - -1 points for a loss
 - -0.07 points for point differential
 - -0.07 additional points for a home loss
-- -1.14 * 0.833 (Arizona's winning percentage) = -0.19
+- -1.14 * 0.1667 (inverse of Arizona's winning percentage) = -0.19
 
 As you can see, while Arizona was rewarded greatly for winning this game, Oregon was not highly penalized for losing (rated about 600th on the list of losses) against a good Arizona team.
 
