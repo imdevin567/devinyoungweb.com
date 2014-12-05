@@ -2,7 +2,7 @@
   "title": "Is PHP Outdated?",
   "description": "PHP used to be the future of websites, but is it really as useful as other dynamic languages nowadays?",
   "date": "1-21-2013",
-  "category": "PHP",
+  "category": "Programming Languages",
   "tags": ["php", "node.js", "python"],
   "slug": "is-php-outdated"
 }}}
@@ -14,7 +14,7 @@ Once I began using MVC frameworks such as [Codeigniter](http://ellislab.com/code
 The fact is, PHP feels a bit outdated. Python (more specifically,[ Django](https://www.djangoproject.com/)) introduced me to built-in web servers. Rather than configure the local Apache server to run the code the way I need it to, I could simply type `python manage.py runserver` into the terminal and view my site on port 8000. [PHP 5.4 has actually introduced this feature](http://php.net/manual/en/features.commandline.webserver.php), but most frameworks have yet to implement a simple process for this.
 
 I've recently begun using [Node.js](http://nodejs.org/) and I must say--I finally feel like I am using the most cutting-edge technologies available at my disposal. I am not a native javascript developer, but nowadays it is nearly impossible to get a decent website up and running without javascript. It only makes sense to write the back-end of your site in javascript as well.
-
+ 
 [Node Package Manager](https://npmjs.org/) makes it incredibly easy to add dependencies to your project. Gone are the days of downloading jQuery plugins one-by-one and moving them to your public directory. [Need a templating language for your app?](https://github.com/joyent/node/wiki/modules#wiki-templating) Look for one in the NPM directory, add it to your JSON file as a dependency, and run `npm install` in your app's directory.
 
 [Bower by Twitter](http://twitter.github.com/bower/), though still feeling a bit beta, shows the future of package management for front-end assets. A JSON file is all it takes to declare dependencies such as [jQuery](http://jquery.org/),[ Bootstrap](http://twitter.github.com/bootstrap/), and [AngularJS](http://angularjs.org/). Run `bower install` and your packages are conveniently stored in the components directory.
